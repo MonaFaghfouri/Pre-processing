@@ -1,7 +1,7 @@
-#🧹 Pre-processing for Farsi Texts
+# 🧹 Pre-processing for Farsi Texts
 This repository provides a collection of text preprocessing notebooks specifically designed for Persian (Farsi) language content, such as tweets, articles, or user-generated text. These scripts help clean, normalize, and tokenize your raw data for further analysis or modeling.
 
-#📁 Repository Structure
+# 📁 Repository Structure
 File / Notebook	Description
 Cleaning_Tweets_of_URLs.ipynb	Removes URLs from Persian tweets
 Convert_Informal_to_Formal.ipynb	Converts informal Persian words to formal equivalents
@@ -14,7 +14,7 @@ Tokenized.ipynb	Tokenizes Persian sentences into words
 Hashtags.ipynb	Extracts or removes hashtags from Persian tweets
 Prompt.txt	Contains example prompts or raw input text
 
-#⚙️ How to Use
+# ⚙️ How to Use
 Upload your raw Farsi text data.
 
 Run the notebooks in the recommended order (starting with cleaning and ending with tokenization).
@@ -23,14 +23,14 @@ If needed, manually review outputs or integrate with downstream NLP pipelines (e
 
 Note: There's no official library for converting Persian informal text to formal. However, this repo includes a custom script for it (Convert_Informal_to_Formal.ipynb). After preparing your .txt files, use Grok or any tokenizer and continue with the notebooks.
 
-#📦 Dependencies
+# 📦 Dependencies
 Python (3.9+)
 
 re, hazm, emoji, string, nltk
 
 Compatible with Google Colab
 
-#👤 Author
+# 👤 Author
 Mona Faghfouri Azar
 Data Analyst | NLP Researcher
 GitHub: @MonaFaghfouri
