@@ -2,17 +2,19 @@
 This repository provides a collection of text preprocessing notebooks specifically designed for Persian (Farsi) language content, such as tweets, articles, or user-generated text. These scripts help clean, normalize, and tokenize your raw data for further analysis or modeling.
 
 # 📁 Repository Structure
-File / Notebook	Description
-Cleaning_Tweets_of_URLs.ipynb	Removes URLs from Persian tweets
-Convert_Informal_to_Formal.ipynb	Converts informal Persian words to formal equivalents
-Correct_Arabic_letters.ipynb	Fixes Arabic characters (e.g., replacing Arabic ی and ك with Persian ones)
-Delete_duplicate_and_empty_tweets.ipynb	Removes empty or duplicate tweets
-Delete_the_emojis.ipynb	Strips emojis from text
-Remove_numbers.ipynb	Deletes Persian, Arabic, and English numbers
-Remove_stop_words.ipynb	Removes Persian stopwords
-Tokenized.ipynb	Tokenizes Persian sentences into words
-Hashtags.ipynb	Extracts or removes hashtags from Persian tweets
-Prompt.txt	Contains example prompts or raw input text
+| File / Notebook                           | Description                                                                |
+| ----------------------------------------- | -------------------------------------------------------------------------- |
+| `Cleaning_Tweets_of_URLs.ipynb`           | Removes URLs from Persian tweets                                           |
+| `Convert_Informal_to_Formal.ipynb`        | Converts informal Persian words to formal equivalents                      |
+| `Correct_Arabic_letters.ipynb`            | Fixes Arabic characters (e.g., replacing Arabic ی and ك with Persian ones) |
+| `Delete_duplicate_and_empty_tweets.ipynb` | Removes empty or duplicate tweets                                          |
+| `Delete_the_emojis.ipynb`                 | Strips emojis from text                                                    |
+| `Remove_numbers.ipynb`                    | Deletes Persian, Arabic, and English numbers                               |
+| `Remove_stop_words.ipynb`                 | Removes Persian stopwords                                                  |
+| `Tokenized.ipynb`                         | Tokenizes Persian sentences into words                                     |
+| `Hashtags.ipynb`                          | Extracts or removes hashtags from Persian tweets                           |
+| `Prompt.txt`                              | Contains example prompts or raw input text                                 |
+
 
 # ⚙️ How to Use
 Upload your raw Farsi text data.
